@@ -1,0 +1,7 @@
+<li>
+  <form class="inline-form">
+    <input id="completed" name="task_completed" type="checkbox" <%="checked" if task.completed%> />
+  </form>
+  <%= link_to task.title, task %>
+</li>
+
